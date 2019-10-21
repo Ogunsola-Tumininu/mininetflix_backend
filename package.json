@@ -1,0 +1,30 @@
+{
+  "name": "mininetflix",
+  "version": "1.0.0",
+  "description": "Mini Netflix App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cloudinary": "^1.16.0",
+    "cors": "*",
+    "dotenv": "*",
+    "express": "*",
+    "express-fileupload": "^0.4.0",
+    "fast-csv": "^2.4.1",
+    "json2csv": "^4.2.1",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.3.1",
+    "multer-storage-cloudinary": "^2.2.1",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Tumininu",
+  "license": "ISC"
+}
