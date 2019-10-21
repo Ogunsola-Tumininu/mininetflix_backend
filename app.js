@@ -9,8 +9,8 @@ const config = require('./config/database')
 // var env = require('dotenv').load()
 
 //connection to database
-mongoose.connect(config.database, { useNewUrlParser: true });
-// mongoose.connect(config.mLab_database, { useNewUrlParser: true });
+// mongoose.connect(config.database, { useNewUrlParser: true });
+mongoose.connect(config.mLab_database, { useNewUrlParser: true });
 
 //on connection
 mongoose.connection.on('connected', () => {
